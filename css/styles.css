@@ -1,0 +1,51 @@
+div.boxy {
+  outline-style: solid;
+  outline-color: #343a40;
+  outline-width:medium;
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  min-height: 200px;
+}
+
+.page-footer {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #efefef;
+  text-align: center;
+  height: 75px;
+}
+
+div.boxy-small {
+  outline-style: solid;
+  outline-color: #343a40;
+  outline-width:thin;
+  margin-top: 10px;
+}
+
+img.daily{
+  height: 50px;
+  margin-right: 5px;
+}
+
+p.daily{
+  text-align: center;
+  vertical-align: middle;
+  margin-top: 10px;
+}
+
+body{
+  margin-bottom: 100px;
+  background-color: #d3d3d3;
+}
+
+p.daily-title{
+  text-align: center;
+  vertical-align: middle;
+  margin-top: 10px;
+  margin-left: 25%;
+  margin-right: 25%;
+}
