@@ -1,6 +1,6 @@
 document.getElementById("refreshSubmit").addEventListener("click", function(event){
   event.preventDefault();
-var proxyURL = "https://cors-anywhere.herokuapp.com/";
+  var proxyURL = "https://cors-anywhere.herokuapp.com/";
   const url = "http://rsbuddy.com/exchange/summary.json";
   fetch(proxyURL + url)
   .then(function(response){
